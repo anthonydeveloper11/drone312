@@ -1,0 +1,851 @@
+#loading {
+    background-color: #3a3a3c;
+}
+
+
+.desktoplogo img {
+    max-height: 80px;
+}
+
+.wsmenu>.wsmenu-list.nav-yellow-hover>li>ul.sub-menu>li>a:hover,
+.wsmenu>.wsmenu-list.nav-yellow-hover>li>.wsmegamenu.w-75 ul.link-list>li>a:hover,
+.wsmenu>.wsmenu-list.nav-yellow-hover>li>.wsmegamenu.halfmenu ul.link-list>li>a:hover,
+.wsmenu>.wsmenu-list.nav-yellow-hover>li.n1-simple>a:hover {
+    color: #fbd306 !important;
+}
+
+.bg-indrones-black {
+    background-color: #3a3a3c;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>a {
+    padding: 8px 4px 8px 0px;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>a:hover {
+    padding: 8px 0px 8px 4px;
+}
+
+.btn-tra-yellow,
+.scroll .btn-tra-yellow,
+.white-color .btn-tra-yellow,
+.tra-yellow-hover:hover,
+.scroll .tra-yellow-hover:hover,
+.white-color .tra-yellow-hover:hover {
+    color: #fbd306 !important;
+    background-color: transparent !important;
+    border-color: #fbd306 !important;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.active-page {
+    color: #fbd306 !important;
+}
+
+
+/*------------------------------------------*/
+/*  CALL TOP RIGHT
+/*------------------------------------------*/
+
+#call-top-right {
+    position: fixed;
+    z-index: 999999;
+    right: 2%;
+    top: 1%;
+    background-color: #fbd306;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#call-top-right img {
+    width: 25px;
+}
+
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*  LANDING PAGE
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+#hero-12 {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.landing-text {
+    color: #fff;
+}
+
+/* .landing-hook:before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.1);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+} */
+
+/* .landing-hook{
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+  } */
+
+#bgvideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    /* width: auto; */
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+}
+
+#landing-content {
+    position: absolute;
+    z-index: 1;
+    bottom: 8%;
+    left: 0%;
+}
+
+#bgvid-phone {
+    height: 60vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+
+/*------------------------------------------*/
+/*  APPLICATIONS
+/*------------------------------------------*/
+
+.top-row h2,
+.bottom-row h2 {
+    margin-bottom: 0px;
+}
+
+.img-block {
+    height: 26%;
+}
+
+.top-row,
+.bottom-row {
+    margin-bottom: 5%;
+}
+
+.content-section .img-block.left-column,
+.content-section .txt-block.left-column {
+    margin-bottom: 1%;
+}
+
+.slider-img {
+    border-radius: 3%;
+}
+
+.img-block .img-fluid {
+    border-radius: 3%;
+}
+
+.small-screen-only {
+    display: none;
+}
+
+
+/*------------------------------------------*/
+/*  STATISTIC
+/*------------------------------------------*/
+
+#statistic-1 {
+    text-align: center;
+}
+
+.statistic-block h2,
+.statistic-block h2 .count-element {
+    color: #fbd306;
+}
+
+/*------------------------------------------*/
+/*  INSUDTRY SOLUTIONS
+/*------------------------------------------*/
+
+.industry-card {
+    padding-bottom: 10px;
+    background-color: #3a3a3c;
+    /* border-radius: 5%; */
+}
+
+.industry-card h5 {
+    margin-bottom: 0px;
+    margin-top: 1vh;
+    color: #fff;
+}
+
+.fbox-8:hover img {
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}
+
+.landing-industry-img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.landing-industry-img img {
+    transition: 0.2s all ease-in-out;
+}
+
+.project-txt {
+    text-align: justify;
+}
+
+
+/*------------------------------------------*/
+/*  CLIENTELE
+/*------------------------------------------*/
+
+#brands-1 {
+    padding-bottom: 10px;
+}
+
+.brand-logo img {
+    max-height: 100%;
+    width: auto;
+    filter: grayscale(60%);
+    opacity: .5;
+}
+
+#brands-1 .brand-logo img:hover {
+    opacity: 0.9;
+    filter: grayscale(0%);
+}
+
+#brands-1 .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+#brands-1 .owl-nav>button {
+    border: none;
+    margin-right: 1rem;
+}
+
+.owl-prev {
+    position: absolute !important;
+    left: -1.5em;
+    top: 5px;
+    border: none;
+    margin-right: 1rem;
+}
+
+.owl-next {
+    position: absolute !important;
+    right: -1.5em;
+    top: 5px;
+    border: none;
+    margin-right: 1rem;
+}
+
+
+/*------------------------------------------*/
+/*  NEWS POSTS
+/*------------------------------------------*/
+
+#posts-listing {
+    justify-content: center;
+}
+
+#blog-1 .owl-dots {
+    display: none;
+}
+
+.news-feature img {
+    max-height: 100%;
+    width: auto;
+    opacity: .8;
+}
+
+/*------------------------------------------*/
+/*  CTA
+/*------------------------------------------*/
+
+.cta-11-txt h2 {
+    color: #fff;
+}
+
+/*------------------------------------------*/
+/*  FOOTER
+/*------------------------------------------*/
+
+img.footer-logo {
+    width: 60%;
+}
+
+.footer-full-logo {
+    width: 30%;
+    display: none;
+}
+
+#footer-call,
+#footer-mail {
+    width: 1rem;
+    height: auto;
+}
+
+
+.footer-links li p {
+    margin-bottom: 0px;
+}
+
+.footer h6{
+    margin-bottom: 10px;
+}
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*  PRODUCTS - DRONE
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+.product-drone-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post-wide {
+    padding-bottom: 2rem;
+}
+
+.product-drone-text {
+    height: auto;
+}
+
+.product-drone-text ul {
+    padding-left: 5%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 4;
+    /* Sit on top */
+    margin: 3vh 0vw 0vh 0vw;
+    width: 100vw;
+    /* Full width */
+    height: 100vh;
+    /* Full height */
+    /* overflow: auto; */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    height: 80%;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.drone-action a {
+    margin-top: 0.5rem;
+}
+
+.specs-icon {
+    width: auto;
+    height: 9vh;
+
+}
+
+.specs-val {
+    margin-bottom: 0px !important;
+}
+
+.specs-item {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+/* .tech-specifications {
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 5;
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    background-color: #575759;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+.tooltip-text::before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    background-color: #575759;
+    padding: 5px;
+    z-index: 1;
+}
+
+.specs-item:hover .tooltip-text {
+    visibility: visible;
+}
+
+.top {
+    top: -40px;
+    left: 0%;
+}
+
+.top::before {
+    top: 80%;
+    left: 45%;
+}
+
+.hover-text {
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+    text-align: center;
+}
+
+.product-drone-text>ul>li {
+    list-style: circle;
+}
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*  SOLUTIONS
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+.solutions-img {
+    width: 75%;
+    height: auto;
+}
+
+.solutions-big-img {
+    text-align: center;
+}
+
+.solutions-content {
+    padding: 0;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.solutions-content-img {
+    border-radius: 0% !important;
+}
+
+.project-title h2 {
+    padding-right: 0%;
+}
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*  CAREERS
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+#download-page {
+    background-image: url(/images/hero-2.jpg);
+}
+
+#careers-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.job-list {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-card {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.job h5 {
+    padding-top: 1%;
+    margin-bottom: 0;
+}
+
+.job-apply {
+    height: 3rem;
+    width: 10rem;
+}
+
+
+.job-description ul {
+    list-style: disc;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*  ABOUT
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+.tm-social {
+    padding-bottom: 1rem;
+}
+
+.tm-details {
+    height: 100px;
+}
+
+.team-members-wrapper>.row {
+    justify-content: center;
+}
+
+.tm-social a {
+    margin-right: 1rem;
+}
+
+.team-member {
+    padding: 0px 1rem;
+}
+
+.team-member row {
+    justify-content: center;
+}
+
+.team-member-data p {
+    /* text-align: justify; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about-opener-image {
+    margin: auto;
+}
+
+.about-opener-image img {
+    border-radius: 5%;
+}
+
+/* .top-row {
+    margin-bottom: 0;
+} */
+
+.about-2-title {
+    text-align: center;
+}
+
+.team-member-photo {
+    width: 75%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*  CONTACT
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+.contact-form .form-checkbox {
+    display: flex;
+    margin-bottom: 10px;
+    height: 60px;
+    align-items: center;
+}
+
+.form-checkbox label {
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+.form-checkbox input {
+    height: 30px;
+    width: 30px;
+}
+
+.checkbox-row {
+    padding-left: 0.75rem;
+}
+
+#kml-upload {
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    padding-left: 50px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-hint {
+    margin-bottom: 30px!important;
+    font-weight: 100!important;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*  AGISOFT
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+.agisoft-features li {
+    list-style: disc;
+}
+
+.agisoft-features-img {
+    width: 90%;
+}
+
+.agisoft-carousel-image {
+    padding: 0 2%;
+    /* height: 10%;
+    width: auto; */
+}
+
+.agisoft-carousel-image img {
+    height: 200px;
+    width: auto !important;
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .tm-details {
+        height: 140px;
+    }
+
+    .drone-specs>* {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    #call-top-right {
+        top: 15vh;
+        padding: 1vh;
+    }
+
+    #call-top-right img {
+        width: 3vw;
+        min-width: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .tm-details {
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 991.95px) {
+    #sigma-75-post {
+        flex-direction: column-reverse;
+    }
+
+    .about-vision {
+        flex-direction: column-reverse;
+    }
+
+    .modal {
+        margin-top: 10vh;
+    }
+
+    .team-member {
+        padding: 0px 0px;
+    }
+
+    .team-member-data p {
+        /* text-align: justify; */
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .tm-details {
+        height: 140px;
+    }
+
+    .drone-specs>* {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    #hero-12 {
+        height: 60vh;
+    }
+
+    .large-screen-only {
+        display: none;
+    }
+
+    .small-screen-only {
+        display: block;
+    }
+
+    #bgvideo {
+        display: none;
+    }
+
+    #content-3 {
+        text-align: center;
+    }
+
+    #sb-1-1,
+    #sb-1-2,
+    #sb-1-3,
+    #sb-1-4 {
+        margin-bottom: 20px;
+        border-right: none;
+    }
+
+    #sb-1-5 {
+        margin-bottom: 0px;
+    }
+
+    #statistic-1 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .industry-card {
+        margin-bottom: 10px;
+    }
+
+    .tm-details {
+        height: 120px;
+    }
+
+    img.footer-logo {
+        display: none;
+    }
+
+    .footer-full-logo {
+        display: block;
+    }
+
+    .drone-specs>* {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tm-details {
+        height: 70px;
+    }
+
+    .team-member-photo {
+        width: 70vw;
+        height: auto;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 479.95px) {
+    .tm-details {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #blog-1 {
+        padding-top: 20px;
+    }
+
+    #reviews-2 {
+        padding-bottom: 20px;
+    }
+
+    .job-apply {
+        font-size: 0.9rem;
+        width: 8rem;
+        padding: 12px 0px;
+    }
+
+    .job-name h5 {
+        font-size: 1rem;
+    }
+
+    .job-details {
+        font-size: 0.8rem;
+    }
+
+    .tm-details {
+        height: 120px;
+    }
+
+    .footer-full-logo {
+        width: 40%;
+    }
+}
+
+/* @media screen and (max-width: 479.95px) {
+    .tm-details{
+        height: 120px;
+    }
+} */
