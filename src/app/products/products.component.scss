@@ -19,7 +19,34 @@
     }
     &.productsSection {
         padding-top: 110px;
-        background-color: #FCCA29;
+        background-color: #f1f1f1;
+        .individual-product-description {
+            width: 95%;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            h6 {
+                font-size: 26px;
+                font-weight: 600;
+            }
+            p, ul li {
+                color: #333;
+            }
+        }
+        .sliderSection {
+            padding: 80px;
+            @media screen and (max-width: 768px) {
+                padding: 50px;
+            }
+        }
+        .product-drone-text {
+            h5 {
+                font-size: 47px;
+                @media screen and (max-width: 768px) {
+                    font-size: 36px;    
+                }
+            }
+        }
     }
     &.contact-section {
         background-image: url(../../assets/images/contact.svg);
@@ -68,25 +95,6 @@
             max-width: 700px;
             border-radius: 50px;
             position: relative;
-            .drone-icon {
-                background: url(../../assets/images/dronepic.png) no-repeat;
-                display: inline-block;
-                position: absolute;
-                width: 600px;
-                height: 600px;
-                top: -270px;
-                right: -250px;
-                background-size: 100%;
-                @media screen and (max-width: 990px) {
-                    width: 420px;
-                    height: 420px;
-                    top: -200px;
-                    right: -180px;
-                }
-                @media screen and (max-width: 768px) {
-                    display: none;
-                }
-            }
             @media screen and (max-width: 990px) {
                 max-width: 550px;
                 padding: 60px;
@@ -428,5 +436,21 @@
         }
     }
 }
-
-
+.productsSection {
+    .carousel-indicators {
+        bottom: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #333;
+    }
+    .carousel-indicators .active{
+        width: 8px;
+        height: 8px;
+    }
+}
