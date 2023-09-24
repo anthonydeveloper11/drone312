@@ -683,6 +683,7 @@
     }
     &.sliderSection {
         padding-bottom: 150px;
+        padding-top: 0;
         @media screen and (max-width: 768px) {
             padding-bottom: 30px;
             padding-top: 0;

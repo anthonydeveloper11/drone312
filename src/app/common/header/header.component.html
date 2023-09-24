@@ -53,9 +53,9 @@
                                     <li aria-haspopup="true"><span class="wsmenu-click"><i class="wsmenu-arrow"></i></span><a href="#">Insights<span class="wsarrow"></span></a>
                                         <!-- Links -->
                                         <ul class="sub-menu">
-                                            <li><a routerLink="/" href="#">Case study</a></li>
-                                            <li><a routerLink="/" href="#">Industry</a></li>
-                                            <li><a routerLink="/" href="#">Events</a></li>
+                                            <li><a routerLink="/insight">Case study</a></li>
+                                            <li><a routerLink="/insight">Industry</a></li>
+                                            <li><a routerLink="/insight">Events</a></li>
                                         </ul>
                                     </li> <!-- END DROPDOWN MENU -->
 
@@ -63,12 +63,12 @@
                                     <li aria-haspopup="true"><span class="wsmenu-click"><i class="wsmenu-arrow"></i></span><a href="#">About us<span class="wsarrow"></span></a>
                                         <!-- Links -->
                                         <ul class="sub-menu">
-                                            <li><a routerLink="/" href="#">Our history</a></li>
-                                            <li><a routerLink="/" href="#">Our mission</a></li>
-                                            <li><a routerLink="/" href="#">Vision</a></li>
-                                            <li><a routerLink="/" href="#">People</a></li>
-                                            <li><a routerLink="/" href="#">Life at Roter</a></li>
-                                            <li><a routerLink="/" href="#">Career</a></li>
+                                            <li><a (click)="navigateToAbout('history')">Our history</a></li>
+                                            <li><a (click)="navigateToAbout('ourMission')">Our mission</a></li>
+                                            <li><a (click)="navigateToAbout('ourVision')">Vision</a></li>
+                                            <li><a (click)="navigateToAbout('ourPeople')">People</a></li>
+                                            <li><a (click)="navigateToAbout('lifeAtRouter')">Life at Roter</a></li>
+                                            <li><a routerLink="/careers">Careers</a></li>
                                         </ul>
                                     </li> <!-- END DROPDOWN MENU -->
     
