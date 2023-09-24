@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { CommonService } from '../common/service/common.service';
 
 @Component({
   selector: 'app-about',
@@ -8,13 +8,16 @@ import { Router } from '@angular/router';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(private router: Router) { 
-    console.log(this.router)
-    const url = this.router['lastSuccessfulNavigation'];
-    console.log(url)
+  constructor( private commonService: CommonService) {
   }
 
   ngOnInit(): void {
+    this.commonService.currentMessage.subscribe((res)=>{
+      const getLocation = document.querySelector('#'+res);
+      if(getLocation) {
+        getLocation.scrollIntoView();
+      }
+    })
   }
 
 }

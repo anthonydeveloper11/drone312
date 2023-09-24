@@ -7,7 +7,12 @@
     
                     <!-- MOBILE HEADER -->
                     <div class="wsmobileheader clearfix">
-                        <span class="smllogo"><a href="/" class="disabled"><img src="assets/images/roterlogo.svg" alt="mobile-logo"></a></span>
+                        <span class="smllogo">
+                            <a href="/" class="roterLogo roterLogoMobile disabled">
+                                Roter <strong>copter</strong>
+                                <!-- <img src="assets/images/roterlogo.svg" alt="mobile-logo"> -->
+                            </a>
+                        </span>
                         <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
                     </div>
     
@@ -18,7 +23,12 @@
     
     
                             <!-- HEADER LOGO -->
-                            <div class="desktoplogo"><a href="/" class="logo-black disabled"><img src="assets/images/roterlogo.svg" alt="header-logo"></a></div>
+                            <div class="desktoplogo">
+                                <a href="/" class="roterLogo logo-black disabled">
+                                    Roter <strong>copter</strong>
+                                    <!-- <img src="assets/images/roterlogo.svg" alt="header-logo"> -->
+                                </a>
+                            </div>
                             <div class="desktoplogo"><a href="/" class="logo-white disabled"><img src="assets/images/roterlogo.svg" alt="header-logo"></a></div>
     
     
@@ -63,7 +73,7 @@
                                     <li aria-haspopup="true"><span class="wsmenu-click"><i class="wsmenu-arrow"></i></span><a href="#">About us<span class="wsarrow"></span></a>
                                         <!-- Links -->
                                         <ul class="sub-menu">
-                                            <li><a (click)="navigateToAbout('history')">Our history</a></li>
+                                            <li><a (click)="navigateToAbout('ourHistory')">Our history</a></li>
                                             <li><a (click)="navigateToAbout('ourMission')">Our mission</a></li>
                                             <li><a (click)="navigateToAbout('ourVision')">Vision</a></li>
                                             <li><a (click)="navigateToAbout('ourPeople')">People</a></li>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { CommonService } from '../service/common.service';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private commonService: CommonService) { }
 
   ngOnInit(): void {
   }
@@ -16,8 +17,9 @@ export class HeaderComponent implements OnInit {
   navigateToAbout(navigateTo: any) {
     this.router.navigate(
       ['/about/'],
-    {queryParams: navigateTo, skipLocationChange: true }
+    {queryParams: {id: navigateTo}}
     );
+    this.commonService.changeMessage(navigateTo)
   }
 
 }

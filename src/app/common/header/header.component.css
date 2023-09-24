@@ -15,3 +15,18 @@
         display: none !important;
     }
 }
+.roterLogo {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #fbd306;
+    margin-top: 7px;
+    text-transform: uppercase;
+    font-family: Metropolis-Bold;
+}
+.roterLogo.roterLogoMobile strong {
+    color: #252525 !important;
+}
+
+.roterLogo strong {
+    color: #fff;
+}
