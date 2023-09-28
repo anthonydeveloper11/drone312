@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  navigateToAbout(navigateTo: any) {
+  navigateToAbout(navigateTo: any) { 
     this.router.navigate(
       ['/about/'],
     {queryParams: {id: navigateTo}}
