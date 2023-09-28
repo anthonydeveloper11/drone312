@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { CareersComponent } from './careers/careers.component';
 import { InsightComponent } from './insight/insight.component';
+import { MoreinsightComponent } from './moreinsight/moreinsight.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { InsightComponent } from './insight/insight.component';
     ProductsComponent,
     AboutComponent,
     CareersComponent,
-    InsightComponent
+    InsightComponent,
+    MoreinsightComponent
   ],
   imports: [
     BrowserModule,
