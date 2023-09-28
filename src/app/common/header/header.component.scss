@@ -1,0 +1,45 @@
+.contactUsBtn {
+    width: 115px;
+    display: block !important;
+    .demo {
+        display: block;
+    }
+    .sales {
+        display: none;
+    }
+}
+.contactUsBtn:hover {
+    background: #333 !important;
+    .demo {
+        display: none;
+    }
+    .sales {
+        display: block;
+    }
+}
+.contactUsBtnMobile {
+    display: none !important;
+}
+@media screen and (max-width: 990px) {
+    .contactUsBtnMobile {
+        display: block !important;
+    }
+    .contactUsBtn {
+        display: none !important;
+    }
+}
+.roterLogo {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #fbd306;
+    margin-top: 0px;
+    text-transform: uppercase;
+    
+}
+.roterLogo.roterLogoMobile strong {
+    color: #252525 !important;
+}
+
+.roterLogo strong {
+    color: #fff;
+}

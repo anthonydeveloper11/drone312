@@ -972,7 +972,7 @@
 
   .wsmenu > .wsmenu-list > li a.btn.btn-tra-white { background-color: #eee; border-color: #eee; color: #666; }
   .wsmobileheader .smllogo { display: block; margin-top: 19px; padding-left: 22px; }
-  .smllogo img { width: auto; max-width: inherit; max-height: 40px; }
+  .smllogo img { width: auto; max-width: inherit; max-height: 40px;margin-top: -15px; }
 
   .wsmenu > .wsmenu-list > li > ul.sub-menu, 
   .wsmenu > .wsmenu-list > li > .wsmegamenu.w-75,

@@ -49,8 +49,28 @@
             }
         }
         &.careerSection {
+            background: url(../../assets/images/career.jpg);
+            background-size: cover;
+            height: 100vh;
+            .container {
+                height: 100%;
+                .blog-post-txt {
+                    position: absolute;
+                    bottom: 0;
+                    @media screen and (max-width: 480px) {
+                        position: static;
+                        padding: 10px;
+                    }
+                    h5, p {
+                        color: #fff;
+                    }
+                }
+            }
             .sliderSection {
                 padding: 40px;
+            }
+            @media screen and (max-width: 480px) {
+                height: auto;
             }
         }
     }
@@ -249,7 +269,7 @@
                     font-weight: 800;
                     line-height: normal;
                     text-transform: uppercase;
-                    font-family: Metropolis-Bold;
+                    
                     @media screen and (max-width: 1200px) {
                         font-size: 42px;
                     }
@@ -468,7 +488,6 @@
             padding: 60px 0 150px;
             h4 {
                 color: #333;
-                font-family: Metropolis-Regular;
                 font-size: 64px;
                 font-style: normal;
                 font-weight: 800;

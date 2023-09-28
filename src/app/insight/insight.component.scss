@@ -52,6 +52,132 @@
             .sliderSection {
                 padding: 40px;
             }
+            &.insightbanner {
+                background: url(../../assets/images/insight.jpg);
+                background-size: cover;
+                height: 90vh;
+                .container {
+                    height: 100%;
+                    .blog-post-txt {
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        height: 300px;
+                        width: 100%;
+                        h5 {
+                            color: #fff;
+                        }
+                        ul {
+                            width: 100%;
+                            padding-left: 0;
+                            padding-top: 20px;
+                            li {
+                                display: inline-block;
+                                width: 32%;
+                                color: #fff;
+                                font-size: 22px;
+                                min-width: 330px;
+                                margin-bottom: 20px;
+                                @media screen and (max-width: 1280px) {
+                                    width: 100%;
+                                    font-size: 18px;
+                                }
+                                img {
+                                    max-width: 80px;
+                                    margin-right: 20px;
+                                    @media screen and (max-width: 1280px) {
+                                        max-width: 50px;
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .timerBlock {
+                        position: absolute;
+                        bottom: -130px;
+                        background: #18181C;
+                        color: #fff;
+                        width: 90%;
+                        border-radius: 15px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        padding: 40px 30px;
+                        div {
+                            width: 300px;
+                            display: inline-block;
+                            @media screen and (max-width: 1280px) {
+                                width: 100%;
+                            }
+                            p {
+                                font-size: 30px;
+                                @media screen and (max-width: 1280px) {
+                                    text-align: center;
+                                }
+                            }
+                            button {
+                                height: auto !important;
+                                padding: 10px 20px !important;
+                                max-width: none !important;
+                                font-size: 16px;
+                                @media screen and (max-width: 1280px) {
+                                    display: none;
+                                }
+                            }
+                        }
+                        ul {
+                            width: calc(100% - 310px);
+                            display: inline-block;
+                            @media screen and (max-width: 1280px) {
+                                width: 320px;
+                                margin: 0 auto;
+                                display: block;
+                            }
+                            li {
+                                display: inline-block;
+                                width: 24%;
+                                font-size: 72px;
+                                color: #FCCA29;
+                                text-align: center;
+                                line-height: 1.1;
+                                @media screen and (max-width: 1280px) {
+                                    font-size: 36px;
+                                }
+                                span {
+                                    font-size: 20px;
+                                    color: #fff;
+                                    text-transform: uppercase;
+                                    display: block;
+                                    margin-top: 10px;
+                                    @media screen and (max-width: 1280px) {
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.insightbannerDescSection {
+                    background: #f1f1f1;
+                    height: auto;
+                    .align-items-center {
+                        h5 {
+                            font-size: 52px;
+                            font-weight: 600;
+                            padding-bottom: 10px;
+                            @media screen and (max-width: 1024px) {
+                                font-size: 30px;    
+                            }
+                        }
+                        p, ul {
+                            font-size: 16px;
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
         }
     }
     &.contact-section {
@@ -249,7 +375,7 @@
                     font-weight: 800;
                     line-height: normal;
                     text-transform: uppercase;
-                    font-family: Metropolis-Bold;
+                    
                     @media screen and (max-width: 1200px) {
                         font-size: 42px;
                     }
@@ -468,7 +594,6 @@
             padding: 60px 0 150px;
             h4 {
                 color: #333;
-                font-family: Metropolis-Regular;
                 font-size: 64px;
                 font-style: normal;
                 font-weight: 800;

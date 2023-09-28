@@ -213,7 +213,7 @@
                 }
                 h4, strong {
                     color: #FFF;
-                    font-family: Metropolis-Bold;
+                    
                     font-size: 96px;
                     font-style: normal;
                     font-weight: 800;
@@ -338,7 +338,6 @@
             }
             h4 {
                 color: #333;
-                font-family: Metropolis-Regular;
                 font-size: 64px;
                 font-style: normal;
                 font-weight: 800;
@@ -495,7 +494,7 @@
                     font-weight: 800;
                     line-height: normal;
                     text-transform: uppercase;
-                    font-family: Metropolis-Bold;
+                    
                     @media screen and (max-width: 1200px) {
                         font-size: 42px;
                     }
@@ -765,7 +764,6 @@
     }
     h4 {
         color: #FFF;
-        font-family: Metropolis-Regular;
         font-size: 24px;
         font-style: normal;
         font-weight: 800;
