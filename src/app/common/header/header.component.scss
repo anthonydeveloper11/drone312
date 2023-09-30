@@ -34,6 +34,9 @@
 .headerLogo {
     .navbar-collapse {
         height: 55px;
+        @media screen and (max-width: 990px) {
+            height: auto;
+        }
     }
     ul.navbar-nav {
         justify-content: flex-end;
