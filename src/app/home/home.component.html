@@ -296,8 +296,10 @@
                     <p>Quality and customer satisfaction are our cornerstones. We offer premium surveying instruments and software solutions at competitive prices, but what truly sets us apart is our dedication to continuous innovation.</p>
                     <p>Embark on this exciting journey with us as we continue to redefine what's possible in the surveying and geospatial sectors, building on a legacy of innovation and excellence.</p>
                 </div>
-                <a style="padding: 8px 10px;" *ngIf="hideSection" (click)="toggleReadMore()" class="btn btn-yellow">Read more</a>
-                <a style="padding: 8px 10px;" *ngIf="!hideSection" (click)="toggleReadMore()" class="btn btn-yellow">Read less</a>
+                <a style="padding: 8px 10px;" (click)="toggleReadMore()" class="btn btn-yellow">
+                    <strong *ngIf="hideSection">Read more</strong>
+                    <strong *ngIf="!hideSection">Read less</strong>
+                </a>
                 <!-- <button type="submit" class="btn black-btn">Get in Contact</button> -->
             </div>
         </section>

@@ -6,11 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  hideSection = true;
+  hideSection: boolean = false;
   constructor() { }
 
   ngOnInit(): void {
     this.slider();
+    this.toggleReadMore();
   }
 
   toggleReadMore() {
@@ -46,7 +47,9 @@ function slide(wrapper: any, items: any, prev: any, next: any) {
   // Clone first and last slide
   items.appendChild(cloneFirst);
   items.insertBefore(cloneLast, firstSlide);
-  wrapper.classList.add('loaded');
+  if(wrapper) {
+    wrapper.classList.add('loaded');
+  }
   
   // Mouse and Touch events
   items.onmousedown = dragStart;
