@@ -53,7 +53,7 @@
                 padding: 40px;
             }
             &.insightbanner {
-                background: url(../../assets/images/insight.jpg);
+                background: url(../../assets/images/contact.svg);
                 background-size: cover;
                 height: 90vh;
                 .container {
@@ -108,8 +108,11 @@
                         div {
                             width: 300px;
                             display: inline-block;
+                            vertical-align: top;
+                            padding-top: 30px;
                             @media screen and (max-width: 1280px) {
                                 width: 100%;
+                                padding-top: 0;
                             }
                             p {
                                 font-size: 30px;

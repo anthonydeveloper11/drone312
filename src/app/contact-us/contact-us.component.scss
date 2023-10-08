@@ -1,0 +1,154 @@
+.whatWeDo {
+    padding: 70px 0;
+    background: #252525;
+    h3 {
+        color: #FFF;
+        text-align: center;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
+        padding: 100px 0 50px;
+        @media screen and (max-width: 1198px) {
+            font-size: 40px;  
+        }
+        @media screen and (max-width: 990px) {
+            font-size: 30px;
+        }
+    }
+    &.contact-section {
+        background-image: url(../../assets/images/contact.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        h3 {
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
+        }
+        h4 {
+            color: #FFF;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding-bottom: 30px;
+            line-height: 1.1;
+            strong {
+                color: #FCCA29;
+                font-size: 64px;
+                @media screen and (max-width: 990px) {
+                    font-size: 54px;
+                }
+                @media screen and (max-width: 768px) {
+                    font-size: 40px;
+                }
+                @media screen and (max-width: 600px) {
+                    font-size: 35px;
+                }
+            }
+            @media screen and (max-width: 990px) {
+                font-size: 35px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 30px;
+            }
+            @media screen and (max-width: 600px) {
+                font-size: 20px;
+            }
+        }
+        .form-container {
+            background: #333;
+            padding: 60px 60px;
+            box-sizing: border-box;
+            max-width: 700px;
+            border-radius: 50px;
+            position: relative;
+            max-width: 600px;
+            .drone-icon {
+                background: url(../../assets/images/dronepic.png) no-repeat;
+                display: inline-block;
+                position: absolute;
+                width: 600px;
+                height: 600px;
+                top: -270px;
+                right: -390px;
+                background-size: 100%;
+                @media screen and (max-width: 990px) {
+                    width: 420px;
+                    height: 420px;
+                    top: -200px;
+                    right: -180px;
+                }
+                @media screen and (max-width: 768px) {
+                    display: none;
+                }
+            }
+            @media screen and (max-width: 990px) {
+                max-width: 550px;
+                padding: 60px;
+                margin: 0 auto;
+            }
+            @media screen and (max-width: 768px) {
+                max-width: 500px;
+            }
+            @media screen and (max-width: 600px) {
+                max-width: 100%;
+                padding: 30px;
+            }
+            .form-group {
+                margin-bottom: 20px;
+                .form-control {
+                    border-radius: 25px;
+                    background: #FFF;
+                    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+                    border: 1px solid #ddd;
+                    padding: 10px 20px;
+                }
+                .form-check-label {
+                    color: #FFF;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 15.4px;
+                    vertical-align: text-top;
+                }
+                .form-check-input {
+                    border: 1px solid #fff;
+                    vertical-align: top;
+                    float: none;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    button.btn {
+        color: #FCCA29;
+        border: 1px solid #FCCA29;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        padding: 0 35px;
+        max-width: 279px;
+        height: 42px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 100px;
+        text-transform: uppercase;
+        line-height: 1.1;
+        &.black-btn {
+            background: #333333;
+        }
+        &.transparent-btn {
+            background: transparent;
+        }
+        &:hover {
+            background: #FCCA29;
+            color: #333;
+        }
+        &.center-btn {
+            margin: 0 auto;
+        }
+    }
+}
+

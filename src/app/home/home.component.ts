@@ -6,20 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  hideSection = true;
   constructor() { }
 
   ngOnInit(): void {
     this.slider();
   }
 
+  toggleReadMore() {
+    this.hideSection = !this.hideSection;
+  }
+
   slider() {
     var slider = document.getElementById('slider'),
+    slider2 = document.getElementById('slider2'),
     sliderItems = document.getElementById('items'),
     prev = document.getElementById('prev'),
     next = document.getElementById('next');
 
 slide(slider, sliderItems, prev, next);
+slide(slider2, sliderItems, prev, next);
 
 function slide(wrapper: any, items: any, prev: any, next: any) {
   var posX1 = 0,
