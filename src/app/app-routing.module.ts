@@ -6,6 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { CareersComponent } from './careers/careers.component';
 import { InsightComponent } from './insight/insight.component';
 import { MoreinsightComponent } from './moreinsight/moreinsight.component';
+import { ProductsHomeComponent } from './products-home/products-home.component';
 
 const routes: Routes = [
   { 
@@ -37,6 +38,12 @@ const routes: Routes = [
     path: 'insight',
     canActivate: [],
     component: MoreinsightComponent
+  }
+  ,
+  { 
+    path: 'products-home',
+    canActivate: [],
+    component: ProductsHomeComponent
   }
 ];
 
